@@ -1,0 +1,90 @@
+#container{
+	padding: 0px;
+	margin: 0px;
+	font-family: sans-serif;
+}
+
+.search-container{
+	position: relative;
+	max-width: 500px;
+	margin: 0px auto;
+	margin-top: 30px;
+}
+
+#search_input{
+	width: 100%;
+	height: 26px;
+	font-size: 20px;
+}
+#search-icon{
+	position: absolute;
+	right: -3px;
+	top: 4PX;
+	background: url("images/search-icon.png");
+	display: inline-block;
+	height: 24px;
+	width: 38px;
+}
+
+.loading#search-icon{
+	right: -10px;
+	background: url("images/loader_icon.gif") no-repeat;
+}
+
+#data_container{
+	max-width: 900px;
+	margin: 0px auto;
+	margin-top: 30px;	
+}
+
+.each-row{
+	position: relative;
+	padding: 3px 0px 3px 10px;
+	margin: 20px;	
+	box-shadow: 0 3px 4px -3px #597cc1;
+}
+
+.each-row a{
+	text-decoration: none;	
+	color: #4965A0;
+}
+
+.each-row a:hover{
+	text-decoration: underline;	
+}
+
+.page-details{
+	position:relative;
+	min-height: 70px;
+	padding: 4px;
+}
+
+.page-about, .page-description{
+	position: relative;
+	margin-left: 65px;
+	clear: both;
+}
+
+.page-about{
+	margin-bottom: 5px;
+}
+
+
+.page-details img {
+    left: 12px;
+    position: absolute;
+    top: 11px;
+    clear: both;
+}
+
+.divLike{
+	position: relative;
+    text-align: right;
+	color: #4965A0;
+	bottom: 0px;
+}
+
+.page-details span {
+    background: url("images/like.png") no-repeat 0px -2px;
+    padding-left: 25px;
+}
